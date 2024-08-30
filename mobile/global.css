@@ -5,3 +5,8 @@
 .app-bg {
   @apply bg-[#141719];
 }
+
+.a-center {
+  justify-content: center;
+  align-items: center;
+}

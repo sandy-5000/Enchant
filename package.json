@@ -5,7 +5,6 @@
   "main": "backend/index.js",
   "scripts": {
     "build": "cd ./backend && npm i",
-    "mobile": "cd ./mobile && expo start",
     "dev": "nodemon backend/index.js",
     "start": "node backend/index.js"
   },
