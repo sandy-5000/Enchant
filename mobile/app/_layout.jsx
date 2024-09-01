@@ -5,6 +5,7 @@ import TabBar from '@/components/TabBar'
 const Home = () => {
   return (
     <Tabs
+      screenOptions={{ headerShown: false }}
       tabBar={
         props => <TabBar {...props} />
       }
